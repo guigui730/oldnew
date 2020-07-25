@@ -1,0 +1,6 @@
+
+export const SET_COLLECTREFRESF = 'SET_COLLECTREFRESF'
+
+export const SET_CENTER = 'SET_CENTER'
+
+export const SET_DROPS = 'SET_DROPS'

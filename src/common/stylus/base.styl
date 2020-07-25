@@ -1,0 +1,32 @@
+body, html
+  line-height: 1
+  height:100%
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback'
+  user-select: none
+  -webkit-tap-highlight-color: transparent
+  background: #f0f0f0
+  color: #333
+  
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    body {
+      top: constant(safe-area-inset-top);
+      bottom: constant(safe-area-inset-bottom);
+      left: constant(safe-area-inset-left);
+      right: constant(safe-area-inset-right);
+    }
+  }      
+.wrapper-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .wrapper-hd, .wrapper-bd, .wrapper-ft {
+        width: 100%;
+    }
+    .wrapper-bd {
+        flex: 1;
+        position: relative;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
