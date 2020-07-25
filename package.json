@@ -14,7 +14,7 @@
     "pm2": "pm2 start app.json"
   },
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.19.2",
     "better-scroll": "^1.12.6",
     "fastclick": "^1.0.6",
     "jsonp": "0.2.1",
